@@ -1,0 +1,133 @@
+/* Dark Mode */
+:root {
+    --primary-color: var(--ghost-accent-color, #c1ff00);
+    --primary-text-color: #fcfcfc;
+    --color-primary-text: #fcfcfc;
+    --secondary-text-color: #aaa;
+    --color-secondary-text: #aaa;
+    --white-color: #1d1d1d;
+    --color-white: #1d1d1d;
+    --white: #1d1d1d;
+    --color-lighter-gray: #313131;
+    --light-gray-color: #313131;
+    --color-light-gray: #313131;
+    --mid-gray-color: #474747;
+    --color-mid-gray: #474747;
+    --dark-gray-color: #aaaaaa;
+    --color-dark-gray: #aaaaaa;
+    --color-darker-gray: #cacaca;
+    --black-color: #fcfcfc;
+    --color-black: #fcfcfc;
+    --font-sans: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    --font-serif: Georgia,serif;
+    --font-mono: Menlo,Consolas,Monaco,Liberation Mono,Lucida Console,monospace;
+    --animation-base: ease-in-out;
+    --shadow-base: 0 0 10px rgba(0, 0, 0, 0.02);
+    --content-font-size: 1.7rem;
+    --head-nav-gap: 2.8rem;
+    --h1-size: 4.6rem;
+    --gap: 3.6rem;
+    --ghost-accent-color: #c1ff00;
+}
+
+
+
+/* SOCIALS Buttons */
+.kg-button-card-socials a.kg-btn-accent {
+    display: inline-block;
+    text-decoration: none;
+    height: 48px;
+    text-align: left;
+    vertical-align: middle;
+    width: 300px;
+    line-height: 48px;
+    white-space: wrap;
+    border-radius: 8px;
+    padding: 0 0 0 90px;
+}
+
+.kg-button-card-socials img {
+    display: initial;
+    margin: 0 8px 3.5px 0;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+.kg-button-card-discord a.kg-btn-accent {
+    color: #fff;
+    background-color: #5865f2;
+}
+
+.kg-button-card-twitch a.kg-btn-accent {
+    color: #fff;
+    background-color: #9146ff;
+}
+
+.kg-button-card-youtube a.kg-btn-accent {
+    color: #fff;
+    background-color: #000;
+}
+
+.kg-button-card-twitter a.kg-btn-accent {
+    color: #fff;
+    background-color: #1da1f2;
+}
+
+.kg-button-card-instagram a.kg-btn-accent {
+    color: #fff;
+    background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
+}
+
+.kg-button-card-github a.kg-btn-accent {
+    color: #fff;
+    background-color: #000;
+}
+
+.kg-button-card-telegram a.kg-btn-accent {
+    color: #fff;
+    background-color: #3faee8;
+}
+
+
+
+/* POSTS Overview */
+.post-wrapper,
+.post-footer {
+    background-color: var(--light-gray-color);
+}
+
+
+
+/* POST bottom */
+.related-wrapper {
+    background-color: transparent;
+}
+
+
+
+/* Reg Button Bottom right */
+.gh-portal-triggerbtn-iframe,
+.gh-portal-triggerbtn-wrapper {
+    display: none;
+}
+
+
+
+body:not(.post-template):not(.page-template) {
+    background-image: none;
+}
+
+
+
+/* Keyboard Buttons */
+kbd {
+    border:1px solid gray;
+    font-size:1.2em;
+    box-shadow:1px 0 1px 0 var(--color-darker-gray), 0 2px 0 2px var(--color-light-gray), 0 2px 0 3px var(--color-lighter-gray);
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    margin:2px 3px;
+    padding:1px 5px;
+}
