@@ -28,6 +28,7 @@
     --h1-size: 4.6rem;
     --gap: 3.6rem;
     --ghost-accent-color: #c1ff00;
+    --link-color: var(--ghost-accent-color, #c1ff00);
 }
 
 
