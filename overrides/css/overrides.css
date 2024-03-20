@@ -33,6 +33,10 @@
 
 
 /* SOCIALS Buttons */
+.l-post-content .kg-button-card-socials {
+    padding: 0 !important;
+}
+
 .l-post-content .kg-button-card-socials a.kg-btn-accent {
     display: inline-block;
     text-decoration: none;
