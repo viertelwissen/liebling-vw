@@ -67,6 +67,8 @@ into the {body} of the default.hbs template --}}
                 </div>
               </div>
               {{content}}
+              {{!-- Include Discord Invite hbs  --}}
+              {{> footer}}
               {{!-- List of tags  --}}
               {{#if tags}}
                 <section class="m-tags in-post">
