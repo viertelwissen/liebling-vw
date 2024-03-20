@@ -33,7 +33,7 @@
 
 
 /* SOCIALS Buttons */
-.kg-button-card-socials a.kg-btn-accent {
+.l-post-content .kg-button-card-socials a.kg-btn-accent {
     display: inline-block;
     text-decoration: none;
     height: 48px;
@@ -46,7 +46,7 @@
     padding: 0 0 0 90px;
 }
 
-.kg-button-card-socials img {
+.l-post-content .kg-button-card-socials img {
     display: initial;
     margin: 0 8px 3.5px 0;
     vertical-align: middle;
@@ -54,37 +54,37 @@
     height: 30px;
 }
 
-.kg-button-card-discord a.kg-btn-accent {
+.l-post-content .kg-button-card-discord a.kg-btn-accent {
     color: #fff;
     background-color: #5865f2;
 }
 
-.kg-button-card-twitch a.kg-btn-accent {
+.l-post-content .kg-button-card-twitch a.kg-btn-accent {
     color: #fff;
     background-color: #9146ff;
 }
 
-.kg-button-card-youtube a.kg-btn-accent {
+.l-post-content .kg-button-card-youtube a.kg-btn-accent {
     color: #fff;
     background-color: #000;
 }
 
-.kg-button-card-twitter a.kg-btn-accent {
+.l-post-content .kg-button-card-twitter a.kg-btn-accent {
     color: #fff;
     background-color: #1da1f2;
 }
 
-.kg-button-card-instagram a.kg-btn-accent {
+.l-post-content .kg-button-card-instagram a.kg-btn-accent {
     color: #fff;
     background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
 }
 
-.kg-button-card-github a.kg-btn-accent {
+.l-post-content .kg-button-card-github a.kg-btn-accent {
     color: #fff;
     background-color: #000;
 }
 
-.kg-button-card-telegram a.kg-btn-accent {
+.l-post-content .kg-button-card-telegram a.kg-btn-accent {
     color: #fff;
     background-color: #3faee8;
 }
