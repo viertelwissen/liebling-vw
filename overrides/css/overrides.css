@@ -55,38 +55,38 @@
 }
 
 .l-post-content .kg-button-card-discord a.kg-btn-accent {
-    color: #fff;
-    background-color: #5865f2;
+    color: #fff !important;
+    background-color: #5865f2 !important;
 }
 
 .l-post-content .kg-button-card-twitch a.kg-btn-accent {
-    color: #fff;
-    background-color: #9146ff;
+    color: #fff !important;
+    background-color: #9146ff !important;
 }
 
 .l-post-content .kg-button-card-youtube a.kg-btn-accent {
-    color: #fff;
-    background-color: #000;
+    color: #fff !important;
+    background-color: #000 !important;
 }
 
 .l-post-content .kg-button-card-twitter a.kg-btn-accent {
-    color: #fff;
-    background-color: #1da1f2;
+    color: #fff !important;
+    background-color: #1da1f2 !important;
 }
 
 .l-post-content .kg-button-card-instagram a.kg-btn-accent {
-    color: #fff;
-    background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000);
+    color: #fff !important;
+    background-image: linear-gradient(-135deg,#1400c8,#b900b4,#f50000) !important;
 }
 
 .l-post-content .kg-button-card-github a.kg-btn-accent {
-    color: #fff;
-    background-color: #000;
+    color: #fff !important;
+    background-color: #000 !important;
 }
 
 .l-post-content .kg-button-card-telegram a.kg-btn-accent {
-    color: #fff;
-    background-color: #3faee8;
+    color: #fff !important;
+    background-color: #3faee8 !important;
 }
 
 
